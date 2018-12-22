@@ -53,8 +53,7 @@ if (isset($_GET['array_length']) && ($array_length < 1)) {
             </tr>
         </table>
     </form>
-    </body>
-    </html>
+    
 <?php
 
 
@@ -62,8 +61,7 @@ function get_table($array, $cols)
 {
     $rows = ceil(count($array) / $cols);
     ?>
-    <html>
-    <body>
+    
     <form method="get" action="/TaskPHP502.php">
         <table width="60%" border="1">
             <?php
